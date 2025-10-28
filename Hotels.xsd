@@ -17,17 +17,17 @@
 			<xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>           
             <xs:element name="Address" type="AddressType"/>
         </xs:sequence>       
-        <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
+        <xs:attribute name="Rating" type="xs:double" use="optional"/>
     </xs:complexType>
 
     <!-- Address type definition -->
     <xs:complexType name="AddressType">
         <xs:sequence>
-            <xs:element name="Number" type="xs:string"/>
+            <xs:element name="Number" type="xs:int"/>
             <xs:element name="Street" type="xs:string"/>
             <xs:element name="City" type="xs:string"/>
             <xs:element name="State" type="xs:string"/>
-            <xs:element name="Zip" type="xs:string"/>
+            <xs:element name="Zip" type="xs:int"/>
         </xs:sequence>
 		<xs:attribute name="NearestAirport" type="xs:string" use="required"/>
     </xs:complexType>
