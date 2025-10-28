@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels>
     <!-- Hotel 1: Hotel del Coronado -->
-    <Hotel NearestAirport="San Diego International Airport (SAN)">
+    <Hotel>
         <Name>Hotel del Coronado</Name>
         <Phone>619-435-6611</Phone>
-        <Address>
+        <Address NearestAirport="San Diego International Airport (SAN)">
             <Number>1500</Number>
             <Street>Orange Ave.</Street>
             <City>Coronado</City>
@@ -14,10 +14,10 @@
     </Hotel>
 
     <!-- Hotel 2: Marriott Marquis San Diego Marina -->
-    <Hotel NearestAirport="San Diego International Airport (SAN)">
+    <Hotel>
         <Name>Marriott Marquis San Diego Marina</Name>
         <Phone>619-234-1500</Phone>
-        <Address>
+        <Address NearestAirport="San Diego International Airport (SAN)">
             <Number>333</Number>
             <Street>West Harbor Dr.</Street>
             <City>San Diego</City>
@@ -27,10 +27,10 @@
     </Hotel>
 
     <!-- Hotel 3: The Westgate Hotel -->
-    <Hotel NearestAirport="San Diego International Airport (SAN)">
+    <Hotel>
         <Name>The Westgate Hotel</Name>
         <Phone>619-238-1818</Phone>
-        <Address>
+        <Address NearestAirport="San Diego International Airport (SAN)">
             <Number>1055</Number>
             <Street>Second Avenue</Street>
             <City>San Diego</City>
@@ -40,10 +40,10 @@
     </Hotel>
 
     <!-- Hotel 4: Hampton Inn San Diego-Downtown -->
-    <Hotel NearestAirport="San Diego International Airport (SAN)">
+    <Hotel>
         <Name>Hampton Inn San Diego-Downtown</Name>
         <Phone>619-233-7500</Phone>
-        <Address>
+        <Address NearestAirport="San Diego International Airport (SAN)">
             <Number>1531</Number>
             <Street>Pacific Highway</Street>
             <City>San Diego</City>
@@ -53,10 +53,10 @@
     </Hotel>
 
     <!-- Hotel 5: Omni San Diego Hotel -->
-    <Hotel NearestAirport="San Diego International Airport (SAN)">
+    <Hotel>
         <Name>Omni San Diego Hotel</Name>
         <Phone>619-231-6664</Phone>
-        <Address>
+        <Address NearestAirport="San Diego International Airport (SAN)">
             <Number>675</Number>
             <Street>L Street</Street>
             <City>San Diego</City>
@@ -66,11 +66,11 @@
     </Hotel>
 
     <!-- Hotel 6: Hilton San Diego Bayfront (with rating) -->
-    <Hotel NearestAirport="San Diego International Airport (SAN)" Rating="4.3">
+    <Hotel Rating="4.3">
         <Name>Hilton San Diego Bayfront</Name>
         <Phone>619-564-3333</Phone>
         <Phone>619-564-3334</Phone>
-        <Address>
+        <Address NearestAirport="San Diego International Airport (SAN)" >
             <Number>1</Number>
             <Street>Park Blvd.</Street>
             <City>San Diego</City>
@@ -80,11 +80,11 @@
     </Hotel>
 
     <!-- Hotel 7: Best Western Plus Island Palms Hotel & Marina (with rating) -->
-    <Hotel NearestAirport="San Diego International Airport (SAN)" Rating="4.4">
+    <Hotel Rating="4.4">
         <Name>Best Western Plus Island Palms Hotel &amp; Marina</Name>
         <Phone>619-222-0561</Phone>
         <Phone>800-922-2336</Phone>
-        <Address>
+        <Address NearestAirport="San Diego International Airport (SAN)">
             <Number>2051</Number>
             <Street>Shelter Island Dr.</Street>
             <City>San Diego</City>
@@ -94,10 +94,10 @@
     </Hotel>
 
     <!-- Hotel 8: La Jolla Cove Hotel & Suites -->
-    <Hotel NearestAirport="San Diego International Airport (SAN)">
+    <Hotel>
         <Name>La Jolla Cove Hotel &amp; Suites</Name>
         <Phone>858-459-2621</Phone>
-        <Address>
+        <Address NearestAirport="San Diego International Airport (SAN)">
             <Number>1155</Number>
             <Street>Coast Blvd.</Street>
             <City>La Jolla</City>
@@ -107,11 +107,11 @@
     </Hotel>
 
     <!-- Hotel 9: San Diego Mission Bay Resort -->
-    <Hotel NearestAirport="San Diego International Airport (SAN)">
+    <Hotel>
         <Name>San Diego Mission Bay Resort</Name>
         <Phone>619-677-1161</Phone>
         <Phone>800-874-2727</Phone>
-        <Address>
+        <Address NearestAirport="San Diego International Airport (SAN)">
             <Number>1775</Number>
             <Street>East Mission Bay Dr.</Street>
             <City>San Diego</City>
@@ -121,11 +121,11 @@
     </Hotel>
 
     <!-- Hotel 10: Margaritaville Hotel San Diego Gaslamp Quarter (with rating) -->
-    <Hotel NearestAirport="San Diego International Airport (SAN)" Rating="4.2">
+    <Hotel Rating="4.2">
         <Name>Margaritaville Hotel San Diego Gaslamp Quarter</Name>
         <Phone>619-819-9500</Phone>
         <Phone>619-819-9501</Phone>
-        <Address>
+        <Address NearestAirport="San Diego International Airport (SAN)">
             <Number>435</Number>
             <Street>6th Ave.</Street>
             <City>San Diego</City>
